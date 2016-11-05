@@ -1,7 +1,9 @@
 # Ini-Parser
 This is a very simple and lightweight INI-File parser written in C/C++.
 The compiled libary and the sourcecode can be found at /src/FRM_INI_PARSER_LIB/.
+
 If you want to build the libary for an other OS a CMake-File is included at /src/FRM_INI_PARSER_LIB/CMakeLists.txt
+
 # INCLUDE LIBARY
 Just include the header with `#include "ini_parser.hpp"` located at /src/FRM_INI_PARSER_LIB/ini_parser.hpp
 and link the libary libFRM_INI_PARSER.a located at /src/FRM_INI_PARSER_LIB/Build/Products/Debug/libFRM_INI_PARSER.a.
