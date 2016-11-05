@@ -19,7 +19,7 @@
 #define INI_PARSER_EQUAL_CHARAKTER "="
 #define INI_PARSER_NO_CHARAKTER ""
 //WINDOWS NEEDS AN OTHER LINEENDING
-#if defined(_WIN32) || defined(_WIN64) || defined(__WIN__) || defined(MO_WIN)
+#if defined(_WIN32) || defined(_WIN64) || defined(__WIN__) || defined(FRM_WIN)
 #define INI_PARSER_NEW_LINE_CHARAKTER "\r\n"
 #else
 #define INI_PARSER_NEW_LINE_CHARAKTER "\n"
