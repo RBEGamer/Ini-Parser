@@ -26,7 +26,7 @@
 #include "frm_ini_parser.hpp"
 int ini_parser_unit_test(int argc, const char * argv[]) {
     
-    FRN::ini_parser* parser = new FRN::ini_parser();
+    FRM::ini_parser* parser = new FRN::ini_parser();
     parser->load_ini_file("./config.ini");
     
     std::string* test =parser->get_value("window", "window_title");
