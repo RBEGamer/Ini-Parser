@@ -72,7 +72,7 @@ namespace FRM {
         INI_FILE_DESC* loaded_ini_file;
         
 #if defined(INI_PARSER_USE_STD_MAP)
-        std::unordered_map<std::string, std::unordered_map<std::string, std::string>> ini_dict;
+        std::unordered_map<std::string, std::unordered_map<std::string, std::string> > ini_dict;
 #endif
         
     };
