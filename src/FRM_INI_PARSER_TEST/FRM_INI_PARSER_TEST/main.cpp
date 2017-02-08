@@ -32,12 +32,12 @@ int ini_parser_unit_test(int argc, const char * argv[]) {
     std::string* test =parser->get_value("window", "window_title");
     std::string* test1 =parser->get_value("directories", "asset_dir");
     
-    delete  parser;
-    parser = nullptr;
+
     //CHECK RESULT
     if(*test != "WINDOW_NAME" || *test1 != "Assets"){
         return  -1;
     }
-    
+    delete  parser;
+    parser = nullptr;    
     return 0;
 }
