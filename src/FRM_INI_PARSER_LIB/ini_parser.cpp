@@ -55,8 +55,8 @@ void FRM::ini_parser::load_ini_string(const char* _string){
         file_content.insert(0, INI_PARSER_NEW_LINE_CHARAKTER);
         file_content.append(INI_PARSER_NEW_LINE_CHARAKTER);
         //count lines and sections to allocate the array
-        char* comma_counter_itr = strstr(file_content.c_str(), INI_PARSER_NEW_LINE_CHARAKTER);
-        char* comma_counter_end = NULL;
+        const char* comma_counter_itr = strstr(file_content.c_str(), INI_PARSER_NEW_LINE_CHARAKTER);
+        const char* comma_counter_end = NULL;
         std::string line_content = "";
         int comma_array_size = 0;
         int section_counter = 0;
