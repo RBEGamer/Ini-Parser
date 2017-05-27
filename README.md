@@ -12,7 +12,9 @@ and link the libary libFRM_INI_PARSER.a located at /src/FRM_INI_PARSER_LIB/Build
 Copy the source files :
 * /src/FRM_INI_PARSER_LIB/ini_parser.hpp
 * /src/FRM_INI_PARSER_LIB/ini_parser.cpp
+
 To your working direcotry and include the ini_parser.hpp.
+
 * compile with -std=c++11 flag
 # DEFINES
 * if you are using Windows line termination charakters `\r\n` please define _WIN32,_WIN64,__WIN__ or FRM_WIN
